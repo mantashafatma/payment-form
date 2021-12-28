@@ -1,0 +1,31 @@
+.background {
+background-image: url("sky9.jpeg");
+background-repeat: repeat-x;
+background-size: 700px;
+background-attachment: scroll;
+background-position: top ;
+
+}
+h1{
+    font-style:italic;
+    font-weight: 900;
+    font-size: 70px;
+    color: rgb(25, 248, 218);
+    border:none;
+    text-shadow: 3px 6px 4px rgba(3, 3, 3, 0.904);
+}
+input[type="date"],input[type="password"],input[type="number"],input[type="cardtype"],input[type="email"],input[type="text"],select,textarea{
+    width: 50%;
+    padding: 12px;
+   background-color: rgba(255, 255, 255, 0.801);
+   border: none;
+}
+input[type="submit"]{
+    border-radius: 4px;
+    width: 10%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(15, 150, 136);
+    color: white;
+}

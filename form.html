@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel=" stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+    <form action=""> 
+        <h1>&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160PAYMENT FORM </h1>
+        <h2>contact information</h2>
+        <p>*NAME:<input type="text" name="name" alt="name" placeholder="Enter Your Name" required></p>
+      <fieldset> 
+        <legend>GENDER</legend>  
+        <p>
+            Male <input type="radio" name="gender" id="male">
+            Female <input type="radio" name="gender" id="female">
+            Others <input type="radio" name="gender" id="other">
+        </p></fieldset> 
+        <p>
+            ADDRESS: <textarea name="address" id="address" cols="90" rows="10" placeholder="Enter Your Address"></textarea>
+        </p>
+        <p> Email: <input type="email" name="email" id="mail" placeholder="xyz@gmail.com">
+        </p>
+<p>
+    Pincode: <input type="number" name="pincode" id="pincode" placeholder="123456">
+</p>
+<h2>Payment information</h2>
+<p>  Card Type: 
+    <select name="cardtype" id="card">
+        <option value=""> select a card type</option>
+        <option value="visa"> Visa</option>
+        <option value="Gpay"> Gpay</option>
+        <option value="PhonePay"> PhonePay</option>
+        <option value="UPI"> UPI</option>
+    </select>
+
+</p>
+<p>
+    Card Number <input type="number" name="number" id="number" placeholder="1111-2222-3333-4444">
+</p>
+<p> Expiration Date: <input type="date" name="date" id="date"></p>
+<p>
+    CVV <input type="password" name="cvv" id="cvv" placeholder="123">
+</p>
+<input type="submit" value="Pay">
+    </form>
+</div>
+</body>
+</html>
